@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "E:/laragon/www/VUE/nuxtthree/node_modules/nuxt/dist/app/entry.mjs": {
+  "E:/laragon/www/VUE/nuxt_three/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "E:/laragon/www/VUE/nuxtthree/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "E:/laragon/www/VUE/nuxt_three/node_modules/nuxt/dist/app/entry.mjs"
   }
 }

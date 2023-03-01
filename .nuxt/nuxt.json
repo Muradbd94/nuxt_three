@@ -1,9 +1,9 @@
 {
-  "_hash": "IaWa3pVKkQ",
+  "_hash": "rL3EiBcyiZ",
   "project": {
-    "rootDir": "E:/laragon/www/VUE/nuxtthree"
+    "rootDir": "E:/laragon/www/VUE/nuxt_three"
   },
   "versions": {
-    "nuxt": "3.2.2"
+    "nuxt": "3.2.3"
   }
 }

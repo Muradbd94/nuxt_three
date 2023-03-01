@@ -1,25 +1,25 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://E:/laragon/www/VUE/nuxtthree/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file://E:/laragon/www/VUE/nuxt_three/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { provider, isWindows } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, getRequestHeaders, setResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery, createError } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import devalue from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { renderToString } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/vue/server-renderer/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/ofetch/dist/node.mjs';
-import destr from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/destr/dist/index.mjs';
-import { createCall, createFetch } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/hookable/dist/index.mjs';
-import { snakeCase } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/scule/dist/index.mjs';
-import { hash } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/ohash/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, withQuery } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/ufo/dist/index.mjs';
-import { createStorage } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/unstorage/drivers/fs.mjs';
-import defu from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/defu/dist/defu.mjs';
-import { toRouteMatcher, createRouter } from 'file://E:/laragon/www/VUE/nuxtthree/node_modules/radix3/dist/index.mjs';
+import { provider, isWindows } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/std-env/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, getRequestHeaders, setResponseHeader, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, getQuery, createError } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import devalue from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import { renderToString } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/vue/server-renderer/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/ofetch/dist/node.mjs';
+import destr from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/destr/dist/index.mjs';
+import { createCall, createFetch } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/hookable/dist/index.mjs';
+import { snakeCase } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/scule/dist/index.mjs';
+import { hash } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/ohash/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, withQuery } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/ufo/dist/index.mjs';
+import { createStorage } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/unstorage/drivers/fs.mjs';
+import defu from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/defu/dist/defu.mjs';
+import { toRouteMatcher, createRouter } from 'file://E:/laragon/www/VUE/nuxt_three/node_modules/radix3/dist/index.mjs';
 
 const _runtimeConfig = {"app":{"baseURL":"/","buildAssetsDir":"/_nuxt/","cdnURL":""},"nitro":{"envPrefix":"NUXT_","routeRules":{"/__nuxt_error":{"cache":false}}},"public":{}};
 const ENV_PREFIX = "NITRO_";
@@ -61,7 +61,7 @@ function deepFreeze(object) {
   return Object.freeze(object);
 }
 
-const serverAssets = [{"baseName":"server","dir":"E:/laragon/www/VUE/nuxtthree/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"E:/laragon/www/VUE/nuxt_three/server/assets"}];
 
 const assets = createStorage();
 
@@ -75,10 +75,10 @@ const useStorage = () => storage;
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"E:\\laragon\\www\\VUE\\nuxtthree","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"E:\\laragon\\www\\VUE\\nuxtthree\\server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"E:\\laragon\\www\\VUE\\nuxtthree\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"E:\\laragon\\www\\VUE\\nuxtthree\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"E:\\laragon\\www\\VUE\\nuxt_three","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"E:\\laragon\\www\\VUE\\nuxt_three\\server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"E:\\laragon\\www\\VUE\\nuxt_three\\.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"E:\\laragon\\www\\VUE\\nuxt_three\\.nuxt\\cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 const defaultCacheOptions = {
   name: "_",
@@ -407,7 +407,7 @@ function hasReqHeader(event, name, includes) {
   return value && typeof value === "string" && value.toLowerCase().includes(includes);
 }
 function isJsonRequest(event) {
-  return hasReqHeader(event, "accept", "application/json") || hasReqHeader(event, "user-agent", "curl/") || hasReqHeader(event, "user-agent", "httpie/") || event.node.req.url?.endsWith(".json");
+  return hasReqHeader(event, "accept", "application/json") || hasReqHeader(event, "user-agent", "curl/") || hasReqHeader(event, "user-agent", "httpie/") || hasReqHeader(event, "sec-fetch-mode", "cors") || event.path.startsWith("/api/") || event.path.endsWith(".json");
 }
 function normalizeError(error) {
   const cwd = typeof process.cwd === "function" ? process.cwd() : "/";
@@ -484,11 +484,11 @@ const errorHandler = (async function errorhandler(error, event) {
   event.node.res.end(await res.text());
 });
 
-const _lazy_fqxdSS = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_rzZhkb = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_fqxdSS, lazy: true, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_fqxdSS, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_rzZhkb, lazy: true, middleware: false, method: undefined },
+  { route: '/**', handler: _lazy_rzZhkb, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -628,9 +628,9 @@ function publicAssetsURL(...path) {
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('file://E:/laragon/www/VUE/nuxtthree/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('file://E:/laragon/www/VUE/nuxt_three/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('file://E:/laragon/www/VUE/nuxtthree/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('file://E:/laragon/www/VUE/nuxt_three/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
